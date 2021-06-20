@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Pius King</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap-5.0.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome-5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">   
+</head>
+<body class="d-flex justify-content-center align-items-center flex-column">
+    <h2>Music player</h2>
+    <div class="music-container bg-light rounded d-flex shadow-lg">
+            <div class="music-info">
+                <h4 id="title">suppose</h4>
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        
+        <audio src="music/Bl7 fatal hesitation.mp3"></audio>
+        <div class="img-container">
+            <img src="images/suppose.jpg" alt="thumbnail" id="cover">
+        </div>
+
+        <div class="navigation d-flex justify-content-center align-items-center">
+            <button id="prev" class="btn btn-default action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="btn btn-default action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="btn btn-default action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+
+<script src="bootstrap-5.0.1/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
